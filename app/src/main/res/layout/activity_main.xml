@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.ptp.phamtanphat.jsonlanguage0208.MainActivity">
+
+    <TextView
+        android:text="Json "
+        android:layout_centerInParent="true"
+        android:textColor="#f20"
+        android:id="@+id/textviewjson"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginLeft="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textviewjson"
+        android:text="En"
+        android:id="@+id/buttonen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textviewjson"
+        android:text="Vn"
+        android:id="@+id/buttonvn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
